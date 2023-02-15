@@ -1,0 +1,70 @@
+/*---------Backround images and conteiner------*/
+.body-img {
+    background-image: url('/images/background_image/poppy_fields.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    padding:0;
+    margin:0;
+}
+
+.main-conteiner {
+    background-color: white;
+    margin: 0px auto;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1000px;
+    padding:0.5rem 1rem;
+}
+/*---------------------------------------------*/
+
+/*---------------Navigation bar---------------*/
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:0.7rem;
+    padding:1rem;
+}
+
+#navigation-list {
+    list-style: none;
+    display: flex;
+    gap:0.5rem;
+    margin: 0;
+    padding:0;
+}
+
+.navigation-list-item-link {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation-list-item-link:hover {
+    color: red;
+}
+/*---------------------------------------------*/
+
+/*--------------Main info----------------------*/
+#info-mac > h4 > strong {
+    color: red;
+}
+
+.kuhnq-img {
+    background-image: url('/images/images_house_in/kuhnq.jpg');
+}
+
+.trapezariq-img {
+    background-image: url('/images/images_house_in/150x150/trapezariq.jpg');
+}
+
+.kamina-img {
+    background-image: url('/images/images_house_in/kamina.jpg');
+}
+
+.header-conteiner {
+    background-color: #ffffff;
+    padding-bottom: 20px;
+}
+
+/*---------------------------------------------*/
